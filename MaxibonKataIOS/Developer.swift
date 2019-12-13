@@ -12,7 +12,7 @@ public struct Developer {
 
     public let name: String
     public let numberOfMaxibonsToGet: Int
-
+    
     init(name: String, numberOfMaxibonsToGet: Int) {
         self.name = name
         self.numberOfMaxibonsToGet = numberOfMaxibonsToGet < 0 ? 0 : numberOfMaxibonsToGet
